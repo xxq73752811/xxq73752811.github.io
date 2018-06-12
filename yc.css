@@ -1,0 +1,138 @@
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #F00;
+}
+a:active {
+	text-decoration: none;
+	font-weight: bold;
+}
+.top{
+	font-size:60px;
+}
+.navbar{
+	width:100%;
+	height:29px;
+	background:#006;
+	margin-top:10px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+.d1{
+	width:1008px;
+	height:29px;
+	margin:0 auto;
+}
+.d1 ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.d1 ul li{
+	float:left;
+}
+.d1 li a{
+	padding-left:15px;
+	padding-right:15px;
+	display:block;
+	color:white;
+	line-height:29px;
+	text-decoration:none;
+}
+.d1 li a:hover{
+	background:#00F;
+}
+body{
+/*background:gray;*/
+}
+#wrap{
+	width:80%;
+	height:160px;
+	border:1px solid black;
+	position:relative;
+	margin:5px 10%;
+	background:#F5E0E3;
+	overflow:hidden;
+}
+#wrap ul{
+	margin:0px;
+	padding:0px;
+	position:absolute;
+}
+#wrap ul li{
+	list-style:none;
+	float:left;
+	margin:5px 10px;
+}
+#wrap ul li img{
+	width:200px;
+	height:150px;
+	cursor:pointer;
+}
+.direction{
+	width:120px;
+	margin:10px auto;
+}
+.direction img{
+	border:1px dotted pink;
+	cursor:pointer;
+}
+.active{
+	border:2px solid gray;
+}
+.top{
+	width:1008px;
+	height:62px;
+	margin:0 auto;
+	color:black;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:40px;
+	padding-left:15px;
+	line-height:35px;
+}
+.dump{
+	width:1008px;
+	height:62px;
+	margin:0 auto;
+	
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:24px;
+	padding-left:15px;
+	line-height:48px;
+}
+.pp{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+}
+.zi{
+	width:1008px;
+	height:62px;
+	margin:0 auto;
+	color:black;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+	padding-left:15px;
+	line-height:35px;
+	padding-top:25px;
+}
+h2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:28px;
+	font-style:normal;
+}
+h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	line-height: 25px;
+	color:#36C;
+}
+.hotnews {
+	padding: 10px;
+	border: 1px solid #dddddd;
+	height: 530px;
+}
